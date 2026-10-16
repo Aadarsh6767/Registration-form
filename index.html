@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <div class="will">
+      <form id="regForm">
+        <h1>Register</h1>
+        <h2>Create your account. It's free and only takes a minute.</h2>
+
+        <div class="input-box">
+          <input type="text" id="fname" placeholder="First Name" required />
+          <input type="text" id="lname" placeholder="Last Name" required />
+        </div>
+
+        <div class="line">
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="password" id="pass" placeholder="Password" required />
+          <input
+            type="password"
+            id="cpass"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+
+        <div class="terms">
+          <input type="checkbox" id="check" required />
+          <label for="check"
+            >I accept the <span class="unique">Terms of Use</span> &
+            <span class="unique">Privacy Policy</span></label
+          >
+        </div>
+
+        <button type="button" class="btn" id="data" onclick="validate()">
+          Register Now
+        </button>
+      </form>
+
+      <p id="msg"></p>
+    </div>
+
+    <script src="register.js"></script>
+  </body>
+</html>
