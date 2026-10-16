@@ -13,5 +13,3 @@ A responsive and interactive user registration form built using HTML, CSS, and J
 HTML5: Semantic markup structure (`index.html`).
 CSS3: Custom styling and responsive layout (`register.css`).
 JavaScript (ES6): Input validation logic and event handling (`register.js`).
-
- Project Structure
